@@ -503,7 +503,6 @@ span{
 }
 
 @media (max-width: 768px) {
-
   /* Navbar */
   header {
     flex-direction: column;
@@ -513,9 +512,10 @@ span{
   }
 
   nav {
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
     width: 100%;
   }
 
