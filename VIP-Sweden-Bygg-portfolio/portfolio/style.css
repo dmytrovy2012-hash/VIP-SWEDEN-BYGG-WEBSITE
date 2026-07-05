@@ -392,35 +392,50 @@ footer{
 }
 
 @media (max-width: 768px) {
+
+  /* Navbar */
   header {
     flex-direction: column;
-    padding: 10px;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
   }
 
   nav {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    width: 100%;
   }
 
   nav a {
-    font-size: 14px;
+    font-size: 12px;
   }
 
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-  .imgs-projects {
-    grid-template-columns: 1fr;
-  }
-
-  .what-to-do {
+  /* Knappar */
+  .projects-btn {
     flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
 
-  .container {
-    width: 100%;
+  .project-kitchen-btn,
+  .project-outside-btn,
+  .project-livingroom-btn,
+  .project-bedroom-btn {
+    width: 80%;
+    text-align: center;
+  }
+
+  /* Footer */
+  .footer-distributed {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer-center,
+  .footer-right {
+    margin-top: 20px;
   }
 }
