@@ -501,3 +501,37 @@ span{
   opacity: 1;
   transform: translateY(0);
 }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .imgs-projects {
+    grid-template-columns: 1fr;
+  }
+
+  .what-to-do {
+    flex-direction: column;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
