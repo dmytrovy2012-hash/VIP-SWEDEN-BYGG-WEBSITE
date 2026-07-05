@@ -402,14 +402,15 @@ footer{
 
   nav {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 8px;
     width: 100%;
   }
 
   nav a {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   /* Knappar */
@@ -438,5 +439,4 @@ footer{
   .footer-right {
     margin-top: 20px;
   }
-}
 }
